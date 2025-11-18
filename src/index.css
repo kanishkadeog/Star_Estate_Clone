@@ -1,0 +1,48 @@
+
+/* @import "tailwindcss"; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom small styles */
+html, body, #root {
+  height: 100%;
+}
+
+.hero-bg {
+  /* you'll put hero image in assets and reference via inline style */
+  background-size: cover;
+  background-position: center;
+}
+
+/* box for translucent search */
+.search-box {
+  background: rgba(255,255,255,0.85);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+/* small animation for letter appearance */
+.letter {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(-6px);
+  animation: in 0.14s forwards;
+}
+@keyframes in {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slowBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(12px);
+  }
+}
+
+.slow-bounce {
+  animation: slowBounce 2s ease-in-out infinite;
+}
+

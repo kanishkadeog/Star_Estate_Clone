@@ -1,0 +1,15 @@
+{
+  "short_name": "StarEstate",
+  "name": "Star Estate - Demo",
+  "icons": [
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0b5f3b",
+  "background_color": "#ffffff"
+}
