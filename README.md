@@ -1,7 +1,7 @@
 ## Star Estate (star-estate-clone)
 
-Live demo: (Add your Vercel URL here after deployment)
-
+Live demo: [(https://star-estate-clone.vercel.app/)
+](https://star-estate-clone.vercel.app/)
 ---
 
 ## Project summary
